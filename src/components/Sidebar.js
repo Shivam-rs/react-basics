@@ -1,6 +1,14 @@
 function Sidebar(props) {
+  const sideBarStyle = {
+    width: "calc(30% - 10px)",
+    background: "pink",
+    marginLeft: "10px",
+  }
+
   return (
-    <h1>Hello from side bar</h1>
+    <aside style={sideBarStyle}>
+      Hello from side bar
+    </aside>
 
   )
 }
